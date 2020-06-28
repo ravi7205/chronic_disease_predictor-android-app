@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="team.com.HealthCareApp.LoginActivity" >
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/editText"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-125dp"
+        android:duplicateParentState="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="none"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/editText"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-244dp"
+        android:duplicateParentState="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="none"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="95dp"
+        android:layout_height="39dp"
+        android:layout_alignLeft="@id/editText3"
+        android:layout_alignBottom="@id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-95dp"
+        android:minHeight="50dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="20dp">
+
+        <RelativeLayout
+            android:id="@+id/ResolvedCard"
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/yesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:text="Yes"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:text="Yes" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="95dp"
+        android:layout_height="39dp"
+        android:layout_alignRight="@id/editText3"
+        android:layout_alignBottom="@id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-95dp"
+        android:minHeight="50dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="20dp">
+
+        <RelativeLayout
+            android:id="@+id/NoCard"
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/noText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:text="No"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                tools:text="No" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

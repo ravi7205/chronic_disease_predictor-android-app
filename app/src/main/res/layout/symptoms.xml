@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/symptomsText"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="0.5"
+            android:text="SYMPTOMS"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <CheckBox
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="shortness of breath" />
+
+        <CheckBox
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="coughing or wheezing attacks" />
+
+        <CheckBox
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="chest tightness" />
+
+        <CheckBox
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="increased mucus production" />
+
+        <CheckBox
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="severe headache" />
+
+        <CheckBox
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="vision problems" />
+
+        <CheckBox
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="pounding in the chest,neck or ears" />
+
+        <CheckBox
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="obstructive sleep" />
+
+        <CheckBox
+            android:id="@+id/s9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="anxiety" />
+
+        <CheckBox
+            android:id="@+id/s10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="urinating often" />
+
+        <CheckBox
+            android:id="@+id/s11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="feeling very thirsty" />
+
+        <CheckBox
+            android:id="@+id/s12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="feeling very hungry even after eating" />
+
+        <CheckBox
+            android:id="@+id/s13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="extreme fatique" />
+
+        <CheckBox
+            android:id="@+id/s14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="weight loss(even after eating more)" />
+
+        <CheckBox
+            android:id="@+id/s15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="tingling / pain or numbness in hands /feet" />
+
+        <CheckBox
+            android:id="@+id/s16"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="coughing for three or more weeks" />
+
+        <CheckBox
+            android:id="@+id/s17"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="coughing up blood" />
+
+        <CheckBox
+            android:id="@+id/s18"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="fever" />
+
+        <CheckBox
+            android:id="@+id/s19"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="night sweats" />
+
+        <CheckBox
+            android:id="@+id/s20"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="loss of apetite" />
+
+        <CheckBox
+            android:id="@+id/s21"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="joint redness" />
+
+        <CheckBox
+            android:id="@+id/s22"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="joint swelling" />
+
+        <CheckBox
+            android:id="@+id/s23"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="joint tenderness" />
+
+        <CheckBox
+            android:id="@+id/s24"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="joint warmth" />
+
+        <CheckBox
+            android:id="@+id/s25"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="limping" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="25dp"
+            tools:layout_editor_absoluteX="126dp"
+            android:layout_marginLeft="140dp"
+            tools:layout_editor_absoluteY="605dp">
+
+            <TextView
+                android:id="@+id/submitText"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="Submit"
+                android:textColor="@color/cardview_light_background" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

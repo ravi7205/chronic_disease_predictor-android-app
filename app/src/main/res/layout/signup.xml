@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="159dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="SIGN UP"
+        android:textSize="36sp"
+        android:layout_marginLeft="140dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="393dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/passText"
+        android:layout_width="389dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="391dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="E-mail Id"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <EditText
+        android:id="@+id/ageText"
+        android:layout_width="394dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="341dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="414dp" />
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_width="193dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:checkedButton="@id/maleGender"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="467dp">
+
+        <RadioButton
+            android:id="@+id/maleGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/femaleGender"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/transGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prefer not to say" />
+    </RadioGroup>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        tools:layout_editor_absoluteX="126dp"
+        android:layout_marginLeft="140dp"
+        tools:layout_editor_absoluteY="605dp">
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:text="Register"
+            android:textColor="@color/cardview_light_background" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
